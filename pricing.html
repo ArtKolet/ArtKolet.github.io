@@ -1,26 +1,12 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <!-- Yandex.Metrika counter -->
-    <script type="text/javascript" >
-        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-    
-        ym(82081405, "init", {
-            clickmap:true,
-            trackLinks:true,
-            accurateTrackBounce:true,
-            webvisor:true
-        });
-    </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/82081405" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-    <!-- /Yandex.Metrika counter -->
-    <title>ArtKolet</title>
+    <title>Фотограф Алексей Костин (Москва, Зеленоград)</title>
     <!-- Meta tag Keywords -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="UTF-8" />
-    <meta name="keywords" content="" />
+    <meta charset="UTF-8">
+    <meta name="description" content="Алексей Костин - Фотограф">
+    <meta name="keywords" content="">
     <script>
         addEventListener("load", function () {
             setTimeout(hideURLbar, 0);
@@ -34,6 +20,8 @@
 
     <!-- Custom-Files -->
     <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Bootstrap-Core-CSS -->
+    <link rel="stylesheet" href="css/lightbox.css">
     <!-- Banner-Slider-CSS -->
     <link rel="stylesheet" href="css/banner-style.css">
     <link rel="stylesheet" href="css/aos.css">
@@ -43,8 +31,7 @@
     <!-- Style-CSS -->
     <link rel="stylesheet" href="css/fontawesome-all.css">
     <!-- Favicon -->
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 </head>
 
 <body>
@@ -55,87 +42,158 @@
         <div class="preloader__item"></div>
         </div>
     </div>
-    <section class="content-main inner-page" id="home">
+    <section class="content-main" id="home">
         <!--/nav-->
-        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">
-                <img src="images/Klyosha.png" width="50" height="50" alt="brand">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Переключатель навигации">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Портфолио</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">Обо мне</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="pricing.html">Цены</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Контакты</a>
-                    </li>
-              </ul>
-              <span class="navbar-text">
-                <a title="telephone" href="tel:+797787550049" rel="nofollow"><span itemprop="telephone">+7 977 875 00 49</span></a>
-              </span>
-            </div>
-        </nav>
+        <div class="sticky-top">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" role="navigation">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/Klyosha.png" width="50" height="50" alt="brand">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Переключатель навигации">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Обо мне</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pricing.html">Цены</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Контакты</a>
+                        </li>
+                    </ul>
+                    <span class="navbar-text">
+                        <a title="telephone" href="tel:+797787550049" rel="nofollow"><span itemprop="telephone">+7 977 875 00 49</span></a>
+                    </span>
+                </div>
+            </nav>
+            <nav id="variants" class="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
+                <a class="nav-link" href="portrait.html">Портреты</a>
+                <a class="nav-link" href="reportage.html">Репортаж</a>
+                <a class="nav-link" href="sport.html">Cпорт</a>
+                <a class="nav-link" href="concerts.html">Концерты</a>
+                <a class="nav-link" href="performances.html">Спектакли</a>
+                <a class="nav-link" href="creation.html">Творчество</a>
+            </nav>
+        </div>    
         <!--//nav-->
-    </section>
-    <!--/team-->
-    <section class="team-main text-center py-5 py-3">
-        <!------------------ Hover Effect Style : Demo - 16 --------------->
         <div class="container">
             <div class="inner-sec py-lg-5 py-3">
-                <h2 class="title text-center mb-lg-5 mb-3">Стоимость</h2>
-                <div class="price-inner card box-shadow">
-                    <div class="card-body">
-                        <h1 class="card-title-wthree pricing-card-title-wthree">
-                            <span class="align-top">₽</span>1,500
-                        </h1>
-                        <div class="dropdown-divider"></div>
-                        <h4 class="sub-tittle" style="color: #fbb034">Что входит?</h4>
-                        <ul class="list-unstyled mt-3 mb-4">
-                            <li>1 час съёмки<sup>1</sup></li>
-                            <li>техническая обработка<sup>2</sup></li>
-                            <li>≈100 фотографий в цифровом виде<sup>3</sup></li>
-                        </ul>
-                        <div class="log-in mt-md-3 mt-2">
-                            <a class="hover-2 btn" href="contact.html">Подробнее</a>
+                <h2 class="title text-center mb-lg-5 mb-3">Цены</h2>
+                <div class="row t-in mt-3">
+                    <div class="px-1 col-md-4 price-main-info">
+                        <div class="price-inner card box-shadow">
+                            <img src="images/portraits/7.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h3 class="mb-3 text-center" style="color: #fbb034;">Индивидуальная фотосъемка</h3>
+                                <p class="text-center">в студии (оплачивается отдельно), дома или на природе, портреты, контент для инстаграма, актерское портфолио, модельные тесты</p>
+                                <h5 class="card-title-wthree pricing-card-title-wthree text-center">
+                                    5 000<span class="align-top">₽</span>
+                                </h5>
+                                <h4 class="mb-3 mt-3 text-center" style="color: #fbb034;">Что входит?</h4>
+                                <ul class="px-2 mt-3 mb-4 text-start">
+                                    <li>1 час съёмки</li>
+                                    <li>≈ 100 фотографий с базовой обработкой фото (цветокоррекция и кадрирование)</li>
+                                    <li>10 фото - углубленная ретушь и обработка</li>
+                                    <li>предварительная консультация и рекомендации по подбору образов</li>
+                                    <li>передача обработанных фотографий через файлообменник</li>
+                                    <li>работа визажиста - от 3 000<sup>₽</sup></li>
+                                    <li>выезд фотографа со студийным оборудованием + 1 500<sup>₽</sup>(2 000<sup>₽</sup> - Москва)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="px-1 col-md-4 price-main-info">
+                        <div class="price-inner card box-shadow">
+                            <img src="images/reportage/1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h3 class="mb-3 text-center" style="color: #fbb034;">Репортажная фотосъемка</h3>
+                                <p class="text-center">день рождения, праздник, концерт, утренник, 1 сентября, выпускной, конференция, спорт, корпоративы и другие события</p>
+                                <h5 class="card-title-wthree pricing-card-title-wthree text-center">
+                                    2 500<span class="align-top">₽</span>
+                                </h5>
+                                <h4 class="mb-3 mt-3 text-center" style="color: #fbb034;">Что входит?</h4>
+                                <ul class="px-2 mt-3 mb-4 text-start">
+                                    <li>1 час съёмки, каждый дополнительный час 2 000<sup>₽</sup></li>
+                                    <li>≈ 200 фотографий с базовой обработкой фото (цветокоррекция и кадрирование)</li>
+                                    <li>передача обработанных фотографий через файлообменник</li>
+                                    <li>работа один день от 20 000<sup>₽</sup></li>
+                                    <li>выезд фотографа со студийным оборудованием + 1 500<sup>₽</sup>(2 000<sup>₽</sup> - Москва)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="px-1 col-md-4 price-main-info">
+                        <div class="price-inner card box-shadow">
+                            <img src="images/subjects/11.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h3 class="mb-3 text-center" style="color: #fbb034;">Предметная фотосъемка</h3>
+                                <p class="text-center">цена указана без учета обработки фотографии, фотостудия оплачивается отдельно, указана цена минимального заказа</p>
+                                <h5 class="card-title-wthree pricing-card-title-wthree text-center">
+                                    2 500<span class="align-top">₽</span>
+                                </h5>
+                                <h4 class="mb-3 mt-3 text-center" style="color: #fbb034;">Что входит?</h4>
+                                <ul class="px-2 mt-3 mb-4 text-start">
+                                    <li>фотосъемка предмета 150<sup>₽</sup> за фото</li>
+                                    <li>фотосъемка бликующих, стеклянных, прозрачных, металлических и сложных предметов от 350<sup>₽</sup> за фото</li>
+                                    <li>выездная фотосъемка крупногабаритных предметов от 400<sup>₽</sup> за фото</li>
+                                    <li>фотокомпозиции, группы, наборы, натюрморты от 700<sup>₽</sup> за фото</li>
+                                    <li>работа один день 15 000<sup>₽</sup></li>
+                                    <li>обработка фото для каталога, интернет-магазина 150<sup>₽</sup> за фото</li>
+                                    <li>обработка бликующих, стеклянных, прозрачных, металлических и сложных предметов от 250<sup>₽</sup> за фото</li>
+                                    <li>выезд фотографа со студийным оборудованием + 1 500<sup>₽</sup> (2 000<sup>₽</sup> - Москва)</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="my-4">
-                    <ol style="text-align: left">
-                        <li>Но не более 8 часов в один день. Более длительная съемка возможна и обговаривается отдельно;</li>
-                        <li>По желанию заказчика фотографии могут быть отданы в день съемки без обработки;</li>
-                        <p>(под технической обработкой понимается регулировка яркости, контрастности и незначительная ретушь)</p>
-                        <li>Количество фотографий зависит от насыщенности съемки и может быть отличным от указанного.</li>
-                    </ol>
-                </div>
+                <p class="my-4">
+                    <h3 class="mb-3 mt-3 text-center" style="color: #fbb034;">Дополнительно:</h3>
+                    <ul class="px-3 mt-3 mb-4 text-start" style="color: #8c9398;">
+                        <li>ретушь дополнительных снимков - 100<sup>₽</sup>/шт, ретушь фото других фотографов - 150<sup>₽</sup>/шт.;</li>
+                        <li>для постоянных клиентов скидка, начиная со второй съемки - 10%.</li>
+                    </ul>
+                </p>
+                <p class="my-4">
+                    <h3 class="mb-3 mt-3 text-center" style="color: #fbb034;">Примечание:</h3>
+                    <p>Базовая обработка всех кадров осуществляется в течение 2-х недель после съемки (в зависимости от загруженности). Углубленная ретушь фото осуществляется в течение 2-х недель после отбора кадров клиентами. Обработка репортажной фотосъемки занимает 2-3 недели.
+                        Ускоренная обработка фотографий в течение недели + 50% к стоимости услуг. 
+                        <br><br>
+                        Все фотографии после обработки и ретуши отдаются клиентам в формате jpeg в отличном качестве, подготовленном для печати и размещению в сети. Передача фотографий в формате RAW + 50% к стоимости услуг.
+                        <br><br>
+                        Фотостудия оплачивается отдельно (приблизительная стоимость аренды от 1 200 - 3 000<sup>₽</sup>/час). Запись на фотосессии в фотостудии осуществляется только по предоплате. Сумма предоплаты 1 000 - 1 500<sup>₽</sup>. При отказе от фотосессии менее, чем за 5 дней, предоплата не возвращается.
+                        <br><br>
+                        Участие в фотосессии означает Ваше согласие на публичный показ фотографий в моем портфолио, на моих страницах в соцсетях, выставках и конкурсах.
+                        Конфиденциальная фотосъемка + 50% к стоимости услуг.
+                        Если у Вас есть такое желание, пожалуйста, не забудьте предупредить об этом заранее!
+                        <br><br>
+                        Оплата производится в день фотосъемки за вычетом предоплаты. В случае, если фотосъемка проходит в Московской области, необходимо организовать трансфер или оплатить такси туда/обратно.</p>
+                </p>
             </div>
         </div>
+        <!--/footer-->
+        <footer class="mt-lg-5 mt-3">
+            <div class="social_media text-center">
+                <ul class="social-icons justify-content-center mt-md-5 mt-3">
+                    <li class="mr-1"><a href="https://www.facebook.com/groups/kostinlyosha"><span class="fab fa-facebook-f"></span></a></li>
+                    <li class="mx-1"><a href="https://vk.com/kostinlyosha"><span class="fab fa-vk"></span></a></li>
+                    <li class="mx-1"><a href="https://www.instagram.com/artkolet"><span class="fab fa-instagram"></span></a></li>
+                    <li class="mx-1"><a href="https://twitter.com/kostinlyosha"><span class="fab fa-twitter"></span></a></li>
+                    <li class="mx-1"><a href="https://wa.me/79778750049"><span class="fab fa-whatsapp"></span></a></li>
+                    <li class="mx-1"><a href="https://t.me/kostin_lyosha"><span class="fab fa-telegram-plane"></span></a></li>
+                </ul>
+            </div>
+        </footer>
     </section>
-    <!--//team-->
-    <!--/footer-->
-    <footer class="mt-lg-5 mt-3">
-        <div class="social_media text-center">
-            <ul class="social-icons justify-content-center mt-md-5 mt-3">
-                <li class="mr-1"><a href="https://www.facebook.com/groups/kostinlyosha"><span class="fab fa-facebook-f"></span></a></li>
-                <li class="mx-1"><a href="https://vk.com/kostinlyosha"><span class="fab fa-vk"></span></a></li>
-                <li class="mx-1"><a href="https://www.instagram.com/artkolet"><span class="fab fa-instagram"></span></a></li>
-                <li class="mx-1"><a href="https://twitter.com/kostinlyosha"><span class="fab fa-twitter"></span></a></li>
-                <li class="mx-1"><a href="https://wa.me/79778750049"><span class="fab fa-whatsapp"></span></a></li>
-                <li class="mx-1"><a href="https://t.me/kostin_lyosha"><span class="fab fa-telegram-plane"></span></a></li>
-            </ul>
-        </div>
-    </footer>
     <!--//footer-->
-
     <script src="js/jquery-2.2.3.min.js"></script>
     <script src='js/aos.js'></script>
     <!--// start preload -->

@@ -1,26 +1,12 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <!-- Yandex.Metrika counter -->
-    <script type="text/javascript" >
-        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-    
-        ym(82081405, "init", {
-            clickmap:true,
-            trackLinks:true,
-            accurateTrackBounce:true,
-            webvisor:true
-        });
-    </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/82081405" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-    <!-- /Yandex.Metrika counter -->
-    <title>ArtKolet</title>
+    <title>Фотограф Алексей Костин (Москва, Зеленоград)</title>
     <!-- Meta tag Keywords -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="UTF-8" />
-    <meta name="keywords" content="" />
+    <meta charset="UTF-8">
+    <meta name="description" content="Алексей Костин - Фотограф">
+    <meta name="keywords" content="">
     <script>
         addEventListener("load", function () {
             setTimeout(hideURLbar, 0);
@@ -34,6 +20,8 @@
 
     <!-- Custom-Files -->
     <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Bootstrap-Core-CSS -->
+    <link rel="stylesheet" href="css/lightbox.css">
     <!-- Banner-Slider-CSS -->
     <link rel="stylesheet" href="css/banner-style.css">
     <link rel="stylesheet" href="css/aos.css">
@@ -43,8 +31,7 @@
     <!-- Style-CSS -->
     <link rel="stylesheet" href="css/fontawesome-all.css">
     <!-- Favicon -->
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 </head>
 
 <body>
@@ -55,39 +42,46 @@
         <div class="preloader__item"></div>
         </div>
     </div>
-    <section class="content-main inner-page" id="home">
-        <!--/nav-->
-        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">
-                <img src="images/Klyosha.png" width="50" height="50" alt="brand">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Переключатель навигации">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Портфолио</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="about.html">Обо мне</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pricing.html">Цены</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Контакты</a>
-                    </li>
-              </ul>
-              <span class="navbar-text">
-                <a title="telephone" href="tel:+797787550049" rel="nofollow"><span itemprop="telephone">+7 977 875 00 49</span></a>
-              </span>
-            </div>
-        </nav>
+    <section class="content-main" id="home">
+       <!--/nav-->
+       <div class="sticky-top">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" role="navigation">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/Klyosha.png" width="50" height="50" alt="brand">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Переключатель навигации">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Обо мне</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pricing.html">Цены</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Контакты</a>
+                        </li>
+                    </ul>
+                    <span class="navbar-text">
+                        <a title="telephone" href="tel:+797787550049" rel="nofollow"><span itemprop="telephone">+7 977 875 00 49</span></a>
+                    </span>
+                </div>
+            </nav>
+            <nav id="variants" class="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
+                <a class="nav-link" href="portrait.html">Портреты</a>
+                <a class="nav-link" href="reportage.html">Репортаж</a>
+                <a class="nav-link" href="sport.html">Cпорт</a>
+                <a class="nav-link" href="concerts.html">Концерты</a>
+                <a class="nav-link" href="performances.html">Спектакли</a>
+                <a class="nav-link" href="creation.html">Творчество</a>
+            </nav>
+        </div>    
         <!--//nav-->
-    </section>
-    <!--/about-->
-    <section class="banner-bottom py-lg-5 py-md-5 py-3">
         <div class="container">
             <div class="inner-sec py-lg-5 py-3">
                  <h2 class="title text-center mb-lg-5 mb-3">Обо мне</h2>
@@ -97,14 +91,11 @@
                     </div>
                     <div class="col-lg-6 about-right mt-lg-4">
                         <h4 class="sub-tittle">Кто я?</h4>
-                        <h3 class="tittle">Репортажный фотограф</h3>
-                        <h4 class="sub-tittle">Что снимаю?</h4>
+                        <h3 class="tittle">Создатель памяти</h3>
                         <ul>
-                            <li>спорт</li>
-                            <li>корпоративы</li>
-                            <li>массовые события</li>
-                            <li>детские праздники</li>
-                            <li>театральные выступления</li>
+                            <li>фотография приносит удовольствие не только в будущем</li>
+                            <li>самый дешевый способ сохранить моменты и эмоции</li>
+                            <li>возможность стать участником любого события</li>
                         </ul>
                         <p class="my-4">Фотографии дарят не только эмоции, но и память на долгую жизнь</p>
 
@@ -114,33 +105,22 @@
                         </ul>
                     </div>
                 </div>
-                <!-- <p class="my-4">
-                    <h3 style="color: #fbb034;">Внимание:</h3>
-                    <ul>
-                        <li>фотографирую индивидуальные портреты, детские праздники, репортаж спортивных и других мероприятий;</li>
-                        <li>не фотографирую свадьбы и любовные истории;</li>
-                        <li>портретная фотосессия проводится после личной встречи, чтобы иметь доверительные отношения между друг другом;</li>
-                        <li>творческая постановочная съемка предварительно обсуждается, чтобы максимально приблизиться к реальности изображения, подготовиться, выбрать место, команду и одежду для съемки.</li>
-                    </ul>
-                </p> -->
             </div>
         </div>
+        <!--/footer-->
+        <footer class="mt-lg-5 mt-3">
+            <div class="social_media text-center">
+                <ul class="social-icons justify-content-center mt-md-5 mt-3">
+                    <li class="mr-1"><a href="https://www.facebook.com/groups/kostinlyosha"><span class="fab fa-facebook-f"></span></a></li>
+                    <li class="mx-1"><a href="https://vk.com/kostinlyosha"><span class="fab fa-vk"></span></a></li>
+                    <li class="mx-1"><a href="https://www.instagram.com/artkolet"><span class="fab fa-instagram"></span></a></li>
+                    <li class="mx-1"><a href="https://twitter.com/kostinlyosha"><span class="fab fa-twitter"></span></a></li>
+                    <li class="mx-1"><a href="https://wa.me/79778750049"><span class="fab fa-whatsapp"></span></a></li>
+                    <li class="mx-1"><a href="https://t.me/kostin_lyosha"><span class="fab fa-telegram-plane"></span></a></li>
+                </ul>
+            </div>
+        </footer>
     </section>
-    <!--//about-->
-    <!--/footer-->
-    <footer class="mt-lg-5 mt-3">
-        <div class="social_media text-center">
-            <ul class="social-icons justify-content-center mt-md-5 mt-3">
-                <li class="mr-1"><a href="https://www.facebook.com/groups/kostinlyosha"><span class="fab fa-facebook-f"></span></a></li>
-                <li class="mx-1"><a href="https://vk.com/kostinlyosha"><span class="fab fa-vk"></span></a></li>
-                <li class="mx-1"><a href="https://www.instagram.com/artkolet"><span class="fab fa-instagram"></span></a></li>
-                <li class="mx-1"><a href="https://twitter.com/kostinlyosha"><span class="fab fa-twitter"></span></a></li>
-                <li class="mx-1"><a href="https://wa.me/79778750049"><span class="fab fa-whatsapp"></span></a></li>
-                <li class="mx-1"><a href="https://t.me/kostin_lyosha"><span class="fab fa-telegram-plane"></span></a></li>
-            </ul>
-        </div>
-    </footer>
-    <!--//footer-->
 
     <script src="js/jquery-2.2.3.min.js"></script>
     <script src='js/aos.js'></script>

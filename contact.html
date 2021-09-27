@@ -1,26 +1,12 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <!-- Yandex.Metrika counter -->
-    <script type="text/javascript" >
-        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-    
-        ym(82081405, "init", {
-            clickmap:true,
-            trackLinks:true,
-            accurateTrackBounce:true,
-            webvisor:true
-        });
-    </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/82081405" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-    <!-- /Yandex.Metrika counter -->
-    <title>ArtKolet</title>
+    <title>Фотограф Алексей Костин (Москва, Зеленоград)</title>
     <!-- Meta tag Keywords -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="UTF-8" />
-    <meta name="keywords" content="" />
+    <meta charset="UTF-8">
+    <meta name="description" content="Алексей Костин - Фотограф">
+    <meta name="keywords" content="">
     <script>
         addEventListener("load", function () {
             setTimeout(hideURLbar, 0);
@@ -34,14 +20,18 @@
 
     <!-- Custom-Files -->
     <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Bootstrap-Core-CSS -->
+    <link rel="stylesheet" href="css/lightbox.css">
+    <!-- Banner-Slider-CSS -->
+    <link rel="stylesheet" href="css/banner-style.css">
     <link rel="stylesheet" href="css/aos.css">
     <link href='css/aos-animation.css' rel='stylesheet prefetch' type="text/css" media="all" />
+    <!-- owl carousel -->
     <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
     <!-- Style-CSS -->
     <link rel="stylesheet" href="css/fontawesome-all.css">
     <!-- Favicon -->
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 </head>
 
 <body>
@@ -54,33 +44,43 @@
     </div>
     <section class="content-main inner-page" id="home">
         <!--/nav-->
-        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">
-                <img src="images/Klyosha.png" width="50" height="50" alt="brand">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Переключатель навигации">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Портфолио</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">Обо мне</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pricing.html">Цены</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="contact.html">Контакты</a>
-                    </li>
-              </ul>
-              <span class="navbar-text">
-                <a title="telephone" href="tel:+797787550049" rel="nofollow"><span itemprop="telephone">+7 977 875 00 49</span></a>
-              </span>
-            </div>
-        </nav>
+        <div class="sticky-top">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" role="navigation">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/Klyosha.png" width="50" height="50" alt="brand">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Переключатель навигации">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Обо мне</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pricing.html">Цены</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Контакты</a>
+                        </li>
+                    </ul>
+                    <span class="navbar-text">
+                        <a title="telephone" href="tel:+797787550049" rel="nofollow"><span itemprop="telephone">+7 977 875 00 49</span></a>
+                    </span>
+                </div>
+            </nav>
+            <nav id="variants" class="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
+                <a class="nav-link" href="portrait.html">Портреты</a>
+                <a class="nav-link" href="reportage.html">Репортаж</a>
+                <a class="nav-link" href="sport.html">Cпорт</a>
+                <a class="nav-link" href="concerts.html">Концерты</a>
+                <a class="nav-link" href="performances.html">Спектакли</a>
+                <a class="nav-link" href="creation.html">Творчество</a>
+            </nav>
+        </div>    
         <!--//nav-->
     </section>
     <!-- contact -->
@@ -97,7 +97,7 @@
                             </div>
                             <div class="col-md-9 address-right text-left">
                                 <h6 class="ad-info mb-2">Адрес</h6>
-                                <p> Зеленоград, Москва, Россия</p>
+                                <p>Зеленоград, Москва, Россия</p>
                             </div>
                         </div>
                     </div>
@@ -122,9 +122,7 @@
                             </div>
                             <div class="col-md-9 address-right text-left">
                                 <h6 class="ad-info mb-2">Почта</h6>
-                                <p>
-                                    <a href="mailto:artkolet@mail.ru">artkolet@mail.ru</a>
-                                </p>
+                                <p><a href="mailto:kostinlyosha@mail.ru">kostinlyosha@mail.ru</a></p>
                             </div>
 
                         </div>

@@ -179,6 +179,14 @@ li.nav-item {
     font-size: 29px;
     font-weight: 500;
 }
+
+#variants .nav-link{
+    color: #fbb034;
+    letter-spacing: 2px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
 .dropdown-item {
     font-size: 23px;
 }
