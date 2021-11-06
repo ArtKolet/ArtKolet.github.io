@@ -238,6 +238,10 @@ ul.author li {
     margin: 0 2em 0 0em;
 }
 
+.img-fluid {
+    border-radius: 1%;
+}
+
 ul.author li img {
     border-radius: 50%;
     -weblit-border-radius: 50%;
@@ -262,6 +266,25 @@ ul.author li span {
 
 .about-right {
     padding-left: 3em;
+}
+
+.about-right a{
+    text-decoration: underline; /* Ссылка подчеркнутая и надчеркнутая */
+    color: black; /* Цвет ссылки */
+}
+
+.about-text {
+    text-indent: 20px;
+}
+
+.about-end a {
+    text-decoration: underline; /* Ссылка подчеркнутая и надчеркнутая */
+    color: black; /* Цвет ссылки */
+}
+
+.url-exhibition a {
+    text-decoration: underline; /* Ссылка подчеркнутая и надчеркнутая */
+    color: black; /* Цвет ссылки */
 }
 /*-- //about --*/
 /*-- stats --*/
