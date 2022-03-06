@@ -132,7 +132,11 @@ ul {
   }
 
 /*-- header --*/
-.container-fluid.gallery-lightbox.my-5 {
+.firstline{
+    margin-top: 3em;
+}
+
+.container-fluid.gallery-lightbox {
     padding-left: 5px;
 }
 
