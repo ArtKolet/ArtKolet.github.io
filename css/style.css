@@ -543,6 +543,9 @@ a.hover-2.btn {
 a.hover-2.btn:hover {
     background:#ffc107;
 }
+.panel-title {
+    cursor: pointer;
+}
 /*-- //pricing --*/
 /*-- contact --*/
 
