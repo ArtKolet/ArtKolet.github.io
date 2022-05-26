@@ -291,6 +291,14 @@ ul.author li span {
     color: black; /* Цвет ссылки */
 }
 /*-- //about --*/
+
+/*-- politika--*/
+.politika a {
+    text-decoration: underline;
+    color: black;
+}
+/*-- //politika --*/
+
 /*-- stats --*/
 .stats_info p {
     font-size: 2.5em;
